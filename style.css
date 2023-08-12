@@ -1,0 +1,176 @@
+.header .logo img {
+    width: 26%; /* sets width of image*/
+    height: 16%; /* sets height of image*/
+
+}
+
+.header {
+    background-color: #010103; /* adds background color*/
+    display: flex; /* flex container is used*/
+    align-items: center; /* aligns the text in centre*/
+    justify-content: space-evenly; /* adds even space*/
+    padding: 1.5em 7.5%;  /* adds padding*/
+    width: 86%; /* sets width*/
+}
+
+.header .navbar {
+    display: flex; /* flex used*/
+    justify-content: space-between; /* adds space between flex items*/
+    align-items: center; /* align items in center*/
+}
+
+.header .navbar a {
+    margin: 0 1em; /* sets margin*/ 
+    font-size: 1.6rem; /* sets font size*/
+    color: #97f1ae; /* changes color of font*/
+    text-decoration: none; /* removes underline and other decorations*/
+}
+
+.header .navbar a:hover {
+    font-size: 2rem; /* sets font size*/
+    color: #1f1d1f;
+    padding: 10px;
+    background-color: #51f079;
+    border-radius: 1rem;
+}
+
+.homeBody {
+    background-color: #060712;
+    color: #77f997;
+    display: flex;
+    justify-content: space-between; /* adds space between flex items*/
+    margin-top: 2rem;
+}
+
+.homeBody p,
+.homeBody h1 {
+    font-size: 1.5rem; /* sets font size*/
+    font-family: cursive;/* changes font family*/
+    margin-top: 4rem; /* adds margin at top*/
+    margin-left: 2rem; /* adds margin to left*/
+}
+
+.homeBody img {
+    width: 550px;
+    height: 450px;
+    border-radius: 4rem; /*rounds the corner*/
+}
+
+.homeBody a {
+    text-decoration: none; /* removes underline and other decorations*/
+    font-size: 2rem;
+}
+
+.homeBody a:hover {
+    text-decoration: none; /* removes underline and other decorations*/
+    font-size: 4rem;
+}
+
+.aboutBody h2 {
+    text-align: center;
+    color: #0a0a0a;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.aboutMain ul {
+    list-style: none;
+    text-align: center;
+    color: #77f997;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.aboutMain ul li {
+    line-height: 3rem;
+    border: #000 solid;
+    background-color: #000;
+    filter: drop-shadow(10px 10px 10px #025b17); /* adds shadow to the element */
+    margin-top: 1.5rem;
+    margin-left: 16%;
+    width: 60%;
+    border-radius: 1rem; /*rounds the corner*/
+}
+
+.aboutMain p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder; /* makes text bolder*/
+    font-family: cursive;
+    margin-top: 4rem;
+}
+
+.aboutMain p a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.aboutMain p a:hover {
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+h3 {
+    text-align: center;
+    color: #0a0a0a;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.registration {
+    text-align: center;
+    margin-top: 4rem;
+    border: #000 solid;
+    border-radius: 16rem; /*rounds the corner*/
+    width: 35%;
+    background-color: #000;
+    color: #97f1ae;
+    margin-left: 35%;
+    font-size: 1.3rem;
+    font-family: cursive;
+    filter: drop-shadow(10px 10px 10px #025b17); /* adds green shadow of 10px*/
+}
+.registerform{
+    margin: 6rem;
+   
+}
+.registered{
+    margin-top: 2rem;
+    text-align: center; /* aligns text to center*/
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form2{
+    width: 40%;
+    background-color: #000;
+    color: antiquewhite;
+    filter: drop-shadow(10px 10px 10px #025b17); 
+    margin-left: 24%;
+}
+.fm{
+    margin: 1rem;
+}
+
+.btn{
+    padding: 14px;
+    background-color: #8df1a4;
+    color: #000;
+    border-radius: 1rem; /*rounds the corner*/
+    font-weight: bold;
+}
+.btn:hover{
+    padding: 19px;
+}
+footer {
+    background-color: #010103;
+    height: 2.5rem;
+}
+
+footer p {
+    color: #97f1ae;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic; /* sets font to be italic*/
+}
